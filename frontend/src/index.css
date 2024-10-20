@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,80 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.main{
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  background-color: #5ab2ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather{
+  place-self: center;
+  padding: 40px;
+  border-radius: 10px;
+  background-image: linear-gradient(45deg,#2f4680,#500ae4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* height: 80vh; */
+}
+.search-bar{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.search-bar input{
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  padding-left: 25px;
+  color: #626262;
+  background: #ebfffc;
+  font-size: 18px;
+}
+.search-bar img{
+  width: 50px;
+  padding: 15px;
+  border-radius: 50%;
+  background: #ebfffc;
+  cursor: pointer;
+}
+
+.weather-icon{
+  width: 150px;
+  margin: 30px 0;
+}
+.temperature{
+  color: #fff;
+  font-size: 80px;
+  line-height: 1;
+}
+.location{
+  color: #fff;
+  font-size: 40px;
+}
+.weather-data{
+  width: 100%;
+  margin-top: 40px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.weather-data .col{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+  font-size: 22px;
 }
