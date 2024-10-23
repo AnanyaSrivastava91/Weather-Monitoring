@@ -1,5 +1,7 @@
 Real-Time Data Processing System for Weather Monitoring with Rollups and Aggregates
 
+https://weather-monitoring-five.vercel.app/
+
 Overview
 This project is a real-time data processing system designed to monitor weather conditions and provide summarized insights using rollups and aggregates. It retrieves weather data from the OpenWeatherMap API, processes it, and generates daily summaries, alerts, and visualizations for user-configured thresholds. The system focuses on key weather parameters such as temperature and dominant weather conditions, offering insights for major Indian metro cities.
 
